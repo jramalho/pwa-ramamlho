@@ -1,7 +1,7 @@
 import React from 'react';
 import useStyles from './styles';
 
-const Body = ({}) => {
+const Body = () => {
     const classes = useStyles();
     return(
         <main className={classes.root}>

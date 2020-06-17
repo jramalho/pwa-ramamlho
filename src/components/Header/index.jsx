@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import useStyles from './styles';
 
-const Header = ({}) => {
+const Header = () => {
     const classes = useStyles();
     return(
         <header className={classes.root}>
